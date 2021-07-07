@@ -4,12 +4,7 @@
 
 ## Install
 
-*Requires [Node.js](https://nodejs.org) 8+ and the arvis 3 or 4 [Powerpack](https://www.arvisapp.com/powerpack/), and the original [arvis-google-translate](https://github.com/xfslove/arvis-google-translate) workflow..*
-
 - install with `npm install -g arvis-translate-history` and `npm install -g arvis-google-translate`
-- or [download](https://github.com/xfslove/arvis-translate-history/releases/tag/v1.0.1) workflow
-
-## [Changelog](https://github.com/xfslove/arvis-translate-history/releases)
 
 ## Usage
 
@@ -25,3 +20,9 @@ You can:
 ## Snapshot
 
 ![general.png](media/general.png)
+
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/xfslove/alfred-translate-history).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
