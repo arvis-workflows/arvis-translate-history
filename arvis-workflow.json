@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "category": "Tools",
+  "creator": "hanwen huang",
+  "description": "Arvis workflow arvis-google-translate history",
+  "name": "arvis-translate-history",
+  "readme": "",
+  "defaultIcon": "icon.png",
+  "version": "0.0.1",
+  "webAddress": "https://github.com/jopemachine/arvis-translate-history#readme",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "command": "trh",
+      "title": "translate history",
+      "subtitle": "",
+      "scriptFilter": "node index.js \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": false,
+      "argType": "no",
+      "actions": []
+    }
+  ]
+}
